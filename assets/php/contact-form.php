@@ -40,15 +40,15 @@ $mail->setFrom('enquiry@refreshac.co.nz', 'Contact Us');
 $mail->addAddress($email, $name);
 $mail->addAddress('enquiry@refreshac.co.nz', 'Contact Us');
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "cwg_database";
+// $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $database = "cwg_database";
 
-// $servername = "127.0.0.1:3306";
-// $username = "u768511311_riti2023";
-// $password = "Rumit@2210";
-// $database = "u768511311_ritigarba";
+$servername = "127.0.0.1:3306";
+$username = "u701287743_refreshac";
+$password = "Shubhavi@123";
+$database = "u701287743_refreshac";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
